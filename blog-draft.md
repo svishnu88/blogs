@@ -43,3 +43,16 @@ Though there are several blogs, articles and documents that exist showing how to
 ## Managing software stack
 
 Your AI cluster needs to be often shared among teams with different requirements. Some teams would need TensorFlow 1 version and others may need TensorFlow version 2. Each comes with its own dependency making it difficult to install and manage. In my experience working across projects for multiple clients I have observed that 30 to 40 percent of time gets wasted in making the multiple frameworks work for different teams. Another challenge is most of the frameworks may not release the GPU memory immediately after use. So teams could be starving of GPU's even when they are not used, causing extended project timelines. 
+
+# Birth of jarvislabs.ai
+I left my last job in the mid of 2019 and continued with helping few clients as an Independent AI consultant. After spending a lot of money on different cloud platforms while participating in different Kaggle competitions, I strongly believed, it was time to add a more powerful workstation. So I started looking for a pre-built workstation which suits my needs and I realised I may not be able to buy without paying a hefty premium(Customs, International shipping charges). So after talking to couple of my friends (some of them turned to be co-founders and customers) we decided to design a workstation that is optimal for majority of deep learning workloads. As we discussed earlier how building a workstation is half the battle, and the other battle is installing and managing software stack which is very painful. 
+
+Managing deep learning stack on cloud is comparitively easier due to the nature of cloud platforms. We wanted to bring thse benifits to data science teams. We wanted our workstations to come with software that ensures installation and management of different frameworks as easy as clicking a button. We should be able to create virtual instances with frameworks of our choice, focus on building models and never worry about cuda issues. 
+
+# Meet Jarvis Manager
+![enter image description here](https://raw.githubusercontent.com/svishnu88/blogs/master/JarvisManager.png)
+
+Every Jarvis Workstation comes with our Jarvis Manager pre installed. It helps you create a virtual instance in your AI custer in just few clicks. Each virtual instance is optimized so that you can squeeze the maximum efficiency from each GPU. We wanted to build something that we use every day, and Jarvis Manager is helping do the same. 
+
+Want to know more about us, write to us hello@jarvislabs.ai
+
